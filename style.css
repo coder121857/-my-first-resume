@@ -1,0 +1,70 @@
+* {
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+.hogalala{
+    display: inline-block;
+    font-size: 3rem;
+    overflow: hidden; /* Ensures text is hidden until typing */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: .15em solid orange; /* Typing cursor */
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Blinking cursor */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.content {
+    background-color: rgb(255, 0, 0);
+}
+
+.big {
+    background-color: blueviolet;
+}
+
+.sleep {
+    color: black;
+}
+
+.very {
+    color: black;
+}
+
+.knight {
+    background-color: purple;
+}
+
+.kala {
+    background-color: rgb(255, 0, 221);
+    color: black;
+}
+
+.red {
+    color: black;
+}
+
+.hp {
+    background-color: darkmagenta;
+}
